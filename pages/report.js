@@ -19,7 +19,7 @@ const Report = () => {
                 <div className="space-y-2">
                   <h3 className="flex space-x-4">
                     <HiOutlineMail size={24} />
-                    <span>Baballc@gmail.com</span>
+                    <span>baballc00rep@gmail.com</span>
                   </h3>
                   <h3 className="flex space-x-4">
                     <SiWhatsapp size={24} />
