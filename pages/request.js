@@ -14,7 +14,9 @@ const Request = () => {
                 <h1 className="text-4xl font-bold">
                   Request any learning material here.
                 </h1>
-                <p className="mb-4">Our goal is to help you ace your grades.</p>
+                <p className="mb-4">
+                  Our goal is to help you A&apos;s your grades.
+                </p>
               </div>
               <div className="space-y-4 hidden md:block">
                 <h3 className="text-xl font-bold text-left">Send request to</h3>

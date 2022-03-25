@@ -12,11 +12,11 @@ const Contribute = () => {
             <div className="font-light space-y-8 text-xl md:w-3/5 md:m-auto text-center">
               <div className="space-y-4">
                 <h1 className="text-4xl font-bold">
-                  Contribute On Our Website By Sending Learning Materials
+                  Contribute To Our Website By Sending Learning Materials.
                 </h1>
                 <p className="mb-4">
                   Send learning materials to our website to help build a better
-                  community.
+                  website.
                 </p>
               </div>
               <div className="space-y-4 hidden md:block">
@@ -28,7 +28,7 @@ const Contribute = () => {
                     <div className="space-y-2">
                       <h3 className="flex space-x-4">
                         <HiOutlineMail size={24} />
-                        <span>Baballc@gmail.com</span>
+                        <span>babacontribute@gmail.com</span>
                       </h3>
                       <h3 className="flex space-x-4">
                         <SiWhatsapp size={24} />
