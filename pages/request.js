@@ -51,7 +51,7 @@ const Request = () => {
               Send Learning Material
             </h3>
             <div>
-              <div className="">
+              <div className="text-sm">
                 <div className="space-y-2">
                   <h3 className="flex space-x-4">
                     <HiOutlineMail size={24} />

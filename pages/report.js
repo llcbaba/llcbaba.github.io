@@ -16,7 +16,7 @@ const Report = () => {
               </div>
               <div className="space-y-4 hidden md:block">
                 <h2 className="text-xl font-bold text-left">Send report to</h2>
-                <div className="space-y-2">
+                <div className="space-y-2 text-sm">
                   <h3 className="flex space-x-4">
                     <HiOutlineMail size={24} />
                     <span>baballc00rep@gmail.com</span>
@@ -40,7 +40,7 @@ const Report = () => {
           </div>
           <div className="space-y-4 md:hidden p-8 text-sm">
             <h2 className="text-xl font-bold text-left">Send report to</h2>
-            <div className="space-y-2">
+            <div className="space-y-2 text-sm">
               <h3 className="flex space-x-4">
                 <HiOutlineMail size={24} />
                 <span>baballc00rep@gmail.com</span>
