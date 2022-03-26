@@ -1,9 +1,22 @@
 import { SiWhatsapp } from "react-icons/si";
 import { HiOutlineMail } from "react-icons/hi";
+import Head from "next/head";
 
 const Report = () => {
   return (
     <div>
+      <Head>
+        <title>Baba | Reports</title>
+        <meta
+          name="description"
+          content="baba report page send all your reports on this page"
+        />
+        <meta
+          name="keyword"
+          content="Baba reports report page learn learning materials slides passco pass questions images university student"
+        />
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
       <div>
         <div className="flex md:flex-row flex-col md:h-[92vh]">
           <div className="md:w-[60%] md:h-auto min-h-[40vh] md:m-0 m-8 flex flex-col justify-center">

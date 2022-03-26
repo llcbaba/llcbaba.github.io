@@ -1,11 +1,22 @@
 import { SiWhatsapp } from "react-icons/si";
 import { HiOutlineMail } from "react-icons/hi";
-import { RiUploadCloud2Line } from "react-icons/ri";
-import { useState } from "react";
+import Head from "next/head";
 
 const Request = () => {
   return (
     <div>
+      <Head>
+        <title>Baba | request</title>
+        <meta
+          name="description"
+          content="Need any learning material request it here."
+        />
+        <meta
+          name="keyword"
+          content="Baba request page learn learning materials slides passco pass questions images university student"
+        />
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
       <div>
         <div className="flex md:flex-row flex-col md:h-[92vh]">
           <div className="md:w-[60%] md:h-auto min-h-[40vh] md:m-0 m-8 flex flex-col justify-center">
