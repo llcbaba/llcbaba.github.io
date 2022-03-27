@@ -16,7 +16,7 @@ const Report = () => {
       </Head>
       <div>
         <div className="flex md:flex-row flex-col md:h-[92vh]">
-          <div className="md:w-[60%] md:h-auto h-[40vh] md:m-0 m-8 flex flex-col justify-center">
+          <div className="md:w-[60%] md:h-auto min-h-[40vh] md:m-0 m-8 flex flex-col justify-center">
             <div className="font-light space-y-4 text-xl md:w-3/5 md:m-auto text-center">
               <h1 className="text-4xl font-bold">
                 Please send us what you think about our service, what we are
