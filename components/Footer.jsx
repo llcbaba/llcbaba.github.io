@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { FiTwitter, FiInstagram, FiFacebook } from "react-icons/fi";
+import { BsWhatsapp } from "react-icons/bs";
 
 const Footer = () => {
   return (
@@ -36,14 +37,21 @@ const Footer = () => {
         <div className="space-y-4">
           <h3 className="font-semibold text-xl">Contact</h3>
           <ul className="space-y-2">
-            <li>
+            {/* <li>
               <Link href="/">
                 <p className="flex space-x-4">
                   <span>_______</span> <FiTwitter size={18} />
                 </p>
               </Link>
-            </li>
+            </li> */}
             <li>
+              <Link href="/">
+                <p className="flex space-x-4">
+                  <span>+233 241 779 131</span> <BsWhatsapp size={18} />
+                </p>
+              </Link>
+            </li>
+            {/* <li>
               <Link href="/">
                 <p className="flex space-x-4">
                   <span>_______</span> <FiInstagram size={18} />
@@ -56,7 +64,7 @@ const Footer = () => {
                   <span>_______</span> <FiFacebook size={18} />
                 </p>
               </Link>
-            </li>
+            </li> */}
           </ul>
         </div>
       </div>
