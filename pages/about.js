@@ -16,6 +16,7 @@ const About = () => {
         <div className="h-[30vh] bg-[url('https://images.unsplash.com/photo-1551503766-ac63dfa6401c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80')] bg-no-repeat bg-center bg-cover flex justify-center items-center">
           <h1 className="text-center text-3xl font-bold">ABOUT US</h1>
         </div>
+        <div id="container-5d84192ff9af6fbe751dc69ae3bb81fa"></div>
         <div className="md:w-4/5 mx-4 md:mx-auto mt-8">
           <div className="md:flex md:items-center">
             <div className="my-8 space-y-4 md:w-1/2">

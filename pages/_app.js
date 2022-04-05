@@ -6,7 +6,11 @@ function MyApp({ Component, pageProps }) {
   return (
     <Layout>
       <Head>
-        <meta name="propeller" content="92b7ee6f5ef84d9be39fe2462500338c" />
+        <script
+          async="async"
+          data-cfasync="false"
+          src="//pl17169513.safestgatetocontent.com/5d84192ff9af6fbe751dc69ae3bb81fa/invoke.js"
+        ></script>
       </Head>
       <Component {...pageProps} />
     </Layout>

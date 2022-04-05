@@ -43,6 +43,7 @@ export default function Home() {
             />
           </div>
         </div>
+        <div id="container-5d84192ff9af6fbe751dc69ae3bb81fa"></div>
         <div className="space-y-4  md:pt-16 md:w-4/5 md:m-auto m-4 bg-white">
           <h2 className="font-bold md:text-2xl text-xl">Learning Materials</h2>
           <div>
@@ -105,6 +106,7 @@ export default function Home() {
           </div>
         </div>
       </main>
+      <div id="container-5d84192ff9af6fbe751dc69ae3bb81fa"></div>
     </div>
   );
 }
