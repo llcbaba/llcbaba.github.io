@@ -70,7 +70,6 @@ const Materials = () => {
                 </div>
               </div>
             </div>
-            <div id="container-5d84192ff9af6fbe751dc69ae3bb81fa"></div>
             <div className="mx-4 my-8">
               <h2 className="text-2xl font-bold text-center">
                 Choose Your School
