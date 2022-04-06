@@ -31,7 +31,7 @@ export default function Home() {
                 materials easy to access.
               </p>
               <div className="font-semibold bg-[#ff1596] inline-block text-sm text-white py-2 px-4 rounded-full">
-                <Link href="/materials">Get Started</Link>
+                <a href="/materials">Get Started</a>
               </div>
             </div>
           </div>
@@ -64,12 +64,12 @@ export default function Home() {
                   These materials are provided according to courses and year.
                 </p>
                 <div className="font-medium flex justify-end cursor-pointer">
-                  <Link href="/materials">
+                  <a href="/materials">
                     <p className="flex space-x-2 text-rose-600 text-right">
                       <span>view more</span>
                       <HiOutlineArrowNarrowRight size={24} />
                     </p>
-                  </Link>
+                  </a>
                 </div>
               </div>
             </div>
@@ -90,12 +90,12 @@ export default function Home() {
                   website.
                 </p>
                 <div className="font-medium cursor-pointer">
-                  <Link href="/contribute">
+                  <a href="/contribute">
                     <p className="flex space-x-2 text-rose-600 text-right">
                       <span>get started</span>
                       <HiOutlineArrowNarrowRight size={24} />
                     </p>
-                  </Link>
+                  </a>
                 </div>
               </div>
               <div className="md:flex-1 w-full md:w-auto md:justify-end">
