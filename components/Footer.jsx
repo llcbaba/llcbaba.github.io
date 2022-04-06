@@ -10,13 +10,13 @@ const Footer = () => {
           <h3 className="font-semibold text-xl">BAba</h3>
           <ul className="space-y-2">
             <li>
-              <Link href="/materials">Learning Materials</Link>
+              <a href="/materials">Learning Materials</a>
             </li>
             <li>
-              <Link href="/rules">Terms of Use</Link>
+              <a href="/rules">Terms of Use</a>
             </li>
             <li>
-              <Link href="/about">About Us</Link>
+              <a href="/about">About Us</a>
             </li>
           </ul>
         </div>
@@ -24,13 +24,13 @@ const Footer = () => {
           <h3 className="font-semibold text-xl">Support</h3>
           <ul className="space-y-2">
             <li>
-              <Link href="/contribute">Contribute</Link>
+              <a href="/contribute">Contribute</a>
             </li>
             <li>
-              <Link href="/feedback">Send Feedback</Link>
+              <a href="/feedback">Send Feedback</a>
             </li>
             <li>
-              <Link href="/report">Report Issue</Link>
+              <a href="/report">Report Issue</a>
             </li>
           </ul>
         </div>
@@ -38,18 +38,18 @@ const Footer = () => {
           <h3 className="font-semibold text-xl">Contact</h3>
           <ul className="space-y-2">
             {/* <li>
-              <Link href="/">
+              <a href="/">
                 <p className="flex space-x-4">
                   <span>_______</span> <FiTwitter size={18} />
                 </p>
-              </Link>
+              </a>
             </li> */}
             <li>
-              <Link href="/">
+              <a href="/">
                 <p className="flex space-x-4">
                   <span>+233 241 779 131</span> <BsWhatsapp size={18} />
                 </p>
-              </Link>
+              </a>
             </li>
             {/* <li>
               <Link href="/">

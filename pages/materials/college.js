@@ -85,14 +85,15 @@ const College = () => {
               <div className="md:w-4/5 md:mx-auto my-4 grid mx-4 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 grid-rows-[250px] gap-y-8 gap-x-4">
                 {colleges.length ? (
                   colleges.map((college, index) => (
-                    <Link
+                    <a
                       href={
                         college.available
-                          ? {
-                              pathname: `/materials/department`,
-                              query: { ref: college._id },
-                            }
-                          : ""
+                          ? `/materials/department?ref=${college._id}`
+                          : // ? {
+                            //     pathname: `/materials/department`,
+                            //     query: { ref: college._id },
+                            //   }
+                            ""
                       }
                       key={index}
                     >
@@ -115,7 +116,7 @@ const College = () => {
                           className="object-cover h-4 flex-1 object-center w-full rounded-lg"
                         />
                       </div>
-                    </Link>
+                    </a>
                   ))
                 ) : (
                   <div className="col-span-3">

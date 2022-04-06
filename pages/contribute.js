@@ -1,6 +1,7 @@
 import { SiWhatsapp } from "react-icons/si";
 import { HiOutlineMail } from "react-icons/hi";
 import Head from "next/head";
+import Ads from "../components/Ads";
 
 const Contribute = () => {
   return (
@@ -18,6 +19,7 @@ const Contribute = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div>
+        <Ads />
         <div className="flex md:flex-row flex-col md:h-[92vh]">
           <div className="md:w-[60%] md:h-auto min-h-[40vh] md:m-0 m-8 flex flex-col justify-center">
             <div className="font-light space-y-8 text-xl md:w-3/5 md:m-auto text-center">
@@ -81,6 +83,7 @@ const Contribute = () => {
           </div>
         </div>
       </div>
+      <div id="container-5d84192ff9af6fbe751dc69ae3bb81fa"></div>
     </div>
   );
 };

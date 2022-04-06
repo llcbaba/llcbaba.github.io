@@ -5,6 +5,7 @@ import { useEffect, useState } from "react";
 import Loading from "../../components/Loading";
 import Empty from "../../components/Empty";
 import Heads from "../../components/Heads";
+import Ads from "../../components/Ads";
 
 const Department = () => {
   const { ref = "" } = useRouter().query;
@@ -58,6 +59,7 @@ const Department = () => {
           </div>
         ) : (
           <div>
+            <Ads />
             <div className="bg-[url('https://images.unsplash.com/photo-1546410531-bb4caa6b424d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80')] bg-no-repeat bg-center bg-cover h-[50vh]">
               <div className="w-3/5 mx-auto flex flex-col justify-center items-center space-y-4 h-full">
                 <h1 className="text-4xl font-semibold text-white text-center">
@@ -69,20 +71,22 @@ const Department = () => {
               </div>
             </div>
             <div className="mx-4 my-8">
+              <div id="container-5d84192ff9af6fbe751dc69ae3bb81fa"></div>
               <h2 className="text-2xl font-bold text-center">
                 Choose Your Department
               </h2>
               <div className="md:w-4/5 md:mx-auto my-4 grid mx-4 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-y-8 gap-x-4">
                 {departments.length ? (
                   departments.map((department, index) => (
-                    <Link
+                    <a
                       href={
                         department.available
-                          ? {
-                              pathname: `/materials/course`,
-                              query: { ref: department._id },
-                            }
-                          : ""
+                          ? `/materials/course?ref=${department._id}`
+                          : // ? {
+                            //     pathname: `/materials/course`,
+                            //     query: { ref: department._id },
+                            //   }
+                            ""
                       }
                       key={index}
                     >
@@ -105,7 +109,7 @@ const Department = () => {
                           </h3>
                         </div>
                       </div>
-                    </Link>
+                    </a>
                   ))
                 ) : (
                   <div className="col-span-3">

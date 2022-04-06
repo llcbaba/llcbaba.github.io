@@ -6,6 +6,7 @@ import { HiOutlineSearch } from "react-icons/hi";
 import Loading from "../../components/Loading";
 import Empty from "../../components/Empty";
 import Heads from "../../components/Heads";
+import Ads from "../../components/Ads";
 
 const Course = () => {
   const { ref = "" } = useRouter().query;
@@ -78,6 +79,7 @@ const Course = () => {
           </div>
         ) : (
           <div>
+            <Ads />
             <div className="bg-[url('https://images.unsplash.com/photo-1553484771-4e29a68540f4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=663&q=80')] bg-no-repeat bg-center bg-cover h-[50vh]">
               <div className="w-3/5 mx-auto flex flex-col justify-center items-center space-y-4 h-full">
                 <h1 className="text-4xl font-semibold text-white text-center">
@@ -88,6 +90,7 @@ const Course = () => {
                 </div>
               </div>
             </div>
+            <div id="container-5d84192ff9af6fbe751dc69ae3bb81fa"></div>
             <div>
               <div className="flex space-x-4 border-2 border-gray-700 w-3/5 mx-auto rounded-full my-8 justify-center items-center">
                 <input
@@ -113,14 +116,15 @@ const Course = () => {
               <div className="md:w-4/5 md:mx-auto my-4 grid mx-4 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-y-8 gap-x-4">
                 {courses.length ? (
                   courses.map((course, index) => (
-                    <Link
+                    <a
                       href={
                         course.available
-                          ? {
-                              pathname: `/materials/note`,
-                              query: { ref: course._id },
-                            }
-                          : ""
+                          ? `/materials/note?ref=${course._id}`
+                          : // ? {
+                            //     pathname: `/materials/note`,
+                            //     query: { ref: course._id },
+                            //   }
+                            ""
                       }
                       key={index}
                     >
@@ -146,7 +150,7 @@ const Course = () => {
                           </h2>
                         </div>
                       </div>
-                    </Link>
+                    </a>
                   ))
                 ) : (
                   <div className="col-span-3">

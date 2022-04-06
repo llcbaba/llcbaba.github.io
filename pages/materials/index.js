@@ -73,7 +73,6 @@ const Materials = () => {
               </div>
             </div>
             <div className="mx-4 my-8">
-              <div id="container-5d84192ff9af6fbe751dc69ae3bb81fa"></div>
               <h2 className="text-2xl font-bold text-center">
                 Choose Your School
               </h2>
@@ -83,11 +82,12 @@ const Materials = () => {
                       <a
                         href={
                           school.available
-                            ? {
-                                pathname: `/materials/college`,
-                                query: { ref: school._id },
-                              }
-                            : ""
+                            ? `/materials/college?ref=${school._id}`
+                            : // ? {
+                              //     pathname: `/materials/college`,
+                              //     query: { ref: school._id },
+                              //   }
+                              ""
                         }
                         key={index}
                       >
@@ -114,6 +114,7 @@ const Materials = () => {
                     ))
                   : ""}
               </div>
+              <div id="container-5d84192ff9af6fbe751dc69ae3bb81fa"></div>
             </div>
           </div>
         )}
