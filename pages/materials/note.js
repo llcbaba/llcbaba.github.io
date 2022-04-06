@@ -82,7 +82,10 @@ const Note = () => {
 
             <div className="mx-4 my-8">
               <div id="container-5d84192ff9af6fbe751dc69ae3bb81fa"></div>
-              <h2 className="text-2xl font-bold text-center">Notes</h2>
+              <h2 className="text-2xl font-bold text-center">
+                Notes <br />{" "}
+                <span className="text-lg font-medium">click to download</span>{" "}
+              </h2>
               <div className="md:w-4/5 md:mx-auto my-4 grid mx-4 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-y-8 gap-x-4">
                 {notes.length ? (
                   notes.map((note, index) => (
