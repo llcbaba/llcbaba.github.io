@@ -80,7 +80,7 @@ const Materials = () => {
               <div className="md:w-4/5 md:mx-auto my-4 grid mx-4 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 grid-rows-[250px] gap-y-8 gap-x-4">
                 {schools.length
                   ? schools.map((school, index) => (
-                      <Link
+                      <a
                         href={
                           school.available
                             ? {
@@ -110,7 +110,7 @@ const Materials = () => {
                             className="object-cover h-4 flex-1 object-center w-full rounded-lg"
                           />
                         </div>
-                      </Link>
+                      </a>
                     ))
                   : ""}
               </div>
