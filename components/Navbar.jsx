@@ -6,17 +6,17 @@ const Navbar = () => {
   return (
     <div className="py-2 px-8 border-b-2 flex justify-between">
       <h1 className="Logo font-bold text-2xl">
-        <a href="/">BABa</a>
+        <Link href="/">BABa</Link>
       </h1>
       <ul className="md:flex space-x-4 font-medium hidden">
         <li>
-          <a href="/">home</a>
+          <Link href="/">home</Link>
         </li>
         <li>
-          <a href="/materials">Learning Materials</a>
+          <Link href="/materials">Learning Materials</Link>
         </li>
         <li>
-          <a href="/contribute">Contribute</a>
+          <Link href="/contribute">Contribute</Link>
         </li>
       </ul>
       <div className="md:hidden">
@@ -38,17 +38,17 @@ const Navbar = () => {
             <Menu.Items className="absolute right-0 w-48 mt-2 origin-top-right bg-white  rounded-md shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none font-medium text-lg text-center">
               <div className="px-1 py-1 ">
                 <Menu.Item>
-                  <a href="/">home</a>
+                  <Link href="/">home</Link>
                 </Menu.Item>
               </div>
               <div className="px-1 py-1">
                 <Menu.Item>
-                  <a href="/materials">Learning Materials</a>
+                  <Link href="/materials">Learning Materials</Link>
                 </Menu.Item>
               </div>
               <div className="px-1 py-1">
                 <Menu.Item>
-                  <a href="/contribute">Contribute</a>
+                  <Link href="/">Contribute</Link>
                 </Menu.Item>
               </div>
             </Menu.Items>
