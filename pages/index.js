@@ -18,6 +18,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
+        <Ads />
         <div className="flex md:flex-row flex-col md:h-[92vh]">
           <div className="md:w-[60%] md:h-auto h-[40vh] md:m-0 m-8 flex flex-col justify-center">
             <div className="font-light space-y-4 text-xl md:w-3/5 md:m-auto">

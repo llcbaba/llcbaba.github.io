@@ -5,6 +5,7 @@ import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
 import Loading from "../../components/Loading";
 import Heads from "../../components/Heads";
+import Ads from "../../components/Ads";
 
 function urlFor(source) {
   return imageUrlBuilder(client).image(source);
@@ -60,6 +61,7 @@ const Materials = () => {
           </div>
         ) : (
           <div>
+            <Ads />
             <div className="bg-[url('https://images.unsplash.com/photo-1546410531-bb4caa6b424d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80')] bg-no-repeat bg-center bg-cover h-[50vh]">
               <div className="w-3/5 mx-auto flex flex-col justify-center items-center space-y-4 h-full">
                 <h1 className="text-4xl font-semibold text-white text-center">
