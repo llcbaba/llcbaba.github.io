@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Link from "next/link";
 import { HiOutlineArrowNarrowRight } from "react-icons/hi";
+import Ads from "../components/Ads";
 
 export default function Home() {
   return (
